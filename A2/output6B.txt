@@ -1,0 +1,41 @@
+1) Using batch gradient without feature scaling
+Initial coefficients: 
+[0, 0, 0, 0]
+Final coefficients are:
+[0.21941839685016323, 12.481729406733438, 0.866559580223384, 0.4899364308390147]
+Mean absolute percentage error is : 29.976669944053334
+
+2) Using batch gradient with feature scaling
+Initial coefficients: 
+[0, 0, 0, 0]
+Final coefficients are:
+[7730.872053867435, 8069.264303687423, 11077.015405893277, 18485.569122447192]
+Mean absolute percentage error is : 20.34046542497449
+
+3) Using Stochastic gradient without feature scaling
+Initial coefficients: 
+[0, 0, 0, 0]
+Final coefficients are:
+[0.0071803400406398946, 12.301337356957236, 0.026237149684201787, 0.014175780186431276]
+Mean absolute percentage error is : 29.96004919775569
+
+4) Using Stochastic gradient with feature scaling
+Initial coefficients: 
+[0, 0, 0, 0]
+Final coefficients are:
+[18648.663069990776, 15073.501985961251, 15766.862790309351, 22357.23427068568]
+Mean absolute percentage error is : 32.87903970192347
+
+5) Using Minibatch gradient without feature scaling for batch size = 20
+Initial coefficients: 
+[0, 0, 0, 0]
+Final coefficients are:
+[0.004878043860877857, 12.316492614601154, 0.016968931159065084, 0.008676023446934251]
+Mean absolute percentage error is : 29.959938152860634
+
+6) Using Minibatch gradient with feature scaling for batch size = 20
+Initial coefficients: 
+[0, 0, 0, 0]
+Final coefficients are:
+[6340.552295015755, 2827.87646125345, 15916.90159915714, 10968.772912396124]
+Mean absolute percentage error is : 20.275262089497147
