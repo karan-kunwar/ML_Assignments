@@ -28,11 +28,11 @@ def FindCoeffUsingBatchGReg(LearningRate, FeaturesTrain, PriceTrain, LambdaParam
       return Coeff
 
 def calculate_error(MatrixY, Y_pred):
-    error = 0
-    for i in range(len(MatrixY)):
-        error += abs(MatrixY[i] - Y_pred[i]) / MatrixY[i]
-    error = error / len(MatrixY)
-    return error * 100
+      error = 0
+      for i in range(len(MatrixY)):
+            error += abs(MatrixY[i] - Y_pred[i]) / MatrixY[i]
+      error = error / len(MatrixY)
+      return error * 100
 
 def kernel(MatrixX, xi, HyperParameterTau):
     return np.exp(-np.sum((xi - MatrixX) ** 2, axis = 1) / (2 * HyperParameterTau * HyperParameterTau))
@@ -187,7 +187,7 @@ def main():
       GiveError(Price, FloorArea_Scaled, NoOfBedrooms, NoOfBathrooms, Coeff)
 
       # Using Minibatch gradient with regularisation for batch size = 20
-      print("6) Using Minibatch gradient with regularisation for batch size = 20")
+      print("Using Minibatch gradient with regularisation for batch size = 20")
       LearningRateREG = 0.002
       LambdaParameter = -256
       Coeff = [0, 0, 0, 0]

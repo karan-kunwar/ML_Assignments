@@ -15,7 +15,7 @@ Final coefficients are:
 [68851.74253913165, 154.03672870633724, 825.4095648111318, 275.1862520790242]
 Mean absolute percentage error is : 22.391487213486133 % 
 
-6) Using Minibatch gradient with regularisation for batch size = 20
+Using Minibatch gradient with regularisation for batch size = 20
 Initial coefficients: 
 [0, 0, 0, 0]
 Final coefficients are:
